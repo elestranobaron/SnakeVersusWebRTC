@@ -2,7 +2,7 @@ extends Node
 
 class_name ClientManager
 
-export(String) var websocket_url = "godot-server.captain.perons.com.br"
+export(String) var websocket_url = "determinets.com"
 export(int) var port = 9080
 
 var _rtc : RTC_Client
