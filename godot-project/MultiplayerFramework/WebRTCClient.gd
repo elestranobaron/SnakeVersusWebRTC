@@ -49,7 +49,7 @@ func create_peer(id):
 	print("RTC Creating peer for ", id)
 	var peer: WebRTCPeerConnection = WebRTCPeerConnection.new()
 	peer.initialize({
-		"iceServers": [ { "urls": ["stun:stun.l.google.com:19302"] } ]
+		"iceServers": [ { "urls": ["stun:stun.determinets.com:5349"] } ]
 	})
 	peer.connect("session_description_created", self, "_offer_created", [id])
 	peer.connect("ice_candidate_created", self, "_new_ice_candidate", [id])
