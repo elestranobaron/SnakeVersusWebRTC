@@ -51,7 +51,7 @@ func create_peer(id):
 	peer.initialize({
 		"iceServers": [ 
 		{ 
-		"urls": ["stun:stun.determinets.com:5349"],
+		"urls": ["stun:stun.determinets.com:3478"],
 		},
 		{
             "urls": [ "turn:turn.determinets.com:3478" ], # One or more TURN servers.
